@@ -21,7 +21,7 @@
   "main": "./dist/js/npm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twbs/bootstrap.git"
+    "url": "git+https://github.com/twbs/bootstrap.git"
   },
   "bugs": {
     "url": "https://github.com/twbs/bootstrap/issues"
@@ -52,7 +52,7 @@
     "grunt-jekyll": "~0.4.2",
     "grunt-jscs": "~2.3.0",
     "grunt-saucelabs": "~8.6.1",
-    "grunt-sed": "twbs/grunt-sed#v0.2.0",
+    "grunt-sed": "github:twbs/grunt-sed#v0.2.0",
     "load-grunt-tasks": "~3.3.0",
     "markdown-it": "^5.0.0",
     "npm-shrinkwrap": "^200.4.0",
@@ -83,5 +83,8 @@
       "fonts",
       "js"
     ]
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
