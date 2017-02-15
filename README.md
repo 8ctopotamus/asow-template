@@ -24,7 +24,7 @@ These collapsible accordions are created using <a href="http://getbootstrap.com/
 		</h3>
 	</div>
 
-	<div aria-labelledby="headingFour" class="panel-collapse collapse" id="collapseNUM" role="tabpanel">
+	<div aria-labelledby="headingNUM" class="panel-collapse collapse" id="collapseNUM" role="tabpanel">
 		<div class="panel-body">
 			<!-- Put Your Content Here -->
 		</div>
