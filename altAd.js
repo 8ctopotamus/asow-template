@@ -10,7 +10,7 @@ $(document).ready(function() {
 		a.className += 'chocolat-image';
 		a.href = 'http://app.greenrope.com/content/' + splitz[i] + '.jpg';
 		a.title = splitz[i];
-		a.innerHTML = '<img width="25%" height="200" src="http://app.greenrope.com/content/' + splitz[i] + '.jpg" />';
+		a.innerHTML = '<img width="25%" height="200" src="http://app.greenrope.com/content/' + splitz[i] + '.jpg" alt="'+ splitz[i] +'" />';
 		galContainer.appendChild(a);
 	}
 	
@@ -33,7 +33,7 @@ $(document).ready(function() {
 		elems.each(function () {
 			var $this = $(this),
 				$animationType = $this.data('animation');
-			$this.addClass($animationType).one(animEndEv, function () {
+				$this.addClass($animationType).one(animEndEv, function () {
 				$this.removeClass($animationType);
 			});
 		});
